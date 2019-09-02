@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: "Create new folder in tmp directory"
+  command: "mkdir /tmp"
