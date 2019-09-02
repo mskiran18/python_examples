@@ -6,3 +6,6 @@
 
   - name: "List existing files and folders in tmp directory"
     command: "ls /tmp/"
+
+  - name: "Remove directory"
+    command: "rm -rf /tmp"
