@@ -2,4 +2,7 @@
 - hosts: all
   tasks:
   - name: "Create new folder in tmp directory"
-  command: "mkdir /tmp"
+    command: "mkdir /tmp"
+
+  - name: "List existing files and folders in tmp directory"
+    command: "ls /tmp/"
