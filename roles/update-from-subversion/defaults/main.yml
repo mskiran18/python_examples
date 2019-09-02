@@ -1,0 +1,5 @@
+---
+
+_svn_user: "{{svnuser}}"
+_svn_password: "{{svnpass}}"
+_svn_server: "{{svnurl}}"

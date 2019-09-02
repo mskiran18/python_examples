@@ -1,0 +1,5 @@
+---
+
+- name: "sync_global_packages_index script to update global packages from sub version"
+  become: true
+  script: "python sync_global_packages_index.py"
